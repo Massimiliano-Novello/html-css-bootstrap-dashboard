@@ -1,7 +1,7 @@
 /* WRAPPER */
 .wrapper {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100vh;
     /* debug */
     background-color: aquamarine;
 }
@@ -20,7 +20,23 @@
     height: calc(100vh - 80px);
     background-image: url(../img/sidebar-bg.png);
     background-color: black;
+    position: relative;
 }
+
+.ms_sidebar-list a {
+    color: white;
+}
+
+.ms_sidebar-list i {
+    font-size: 1.2rem;
+}
+
+.admin {
+    position: absolute;
+    top: 90%;
+    left: 15px;
+}
+
 
 @media screen and (min-width: 992px) {
     .sidebar {
