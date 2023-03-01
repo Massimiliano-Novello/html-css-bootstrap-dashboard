@@ -1,3 +1,8 @@
+/* RESET */
+img {
+    max-width: 100%;
+}
+
 /* WRAPPER */
 .wrapper {
     width: 100%;
@@ -13,6 +18,10 @@
     background-color: white;
 }
 
+.ms_logo-img {
+    width: 70px;
+}
+
 /* Main */
 /* Sidebar */
 .sidebar {
@@ -21,6 +30,11 @@
     background-image: url(../img/sidebar-bg.png);
     background-color: black;
     position: relative;
+}
+
+[class^=col] {
+    border: 1px solid black;
+    height: 100px;
 }
 
 .ms_sidebar-list a {
