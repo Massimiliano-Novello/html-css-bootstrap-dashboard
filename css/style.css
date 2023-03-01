@@ -19,7 +19,24 @@ img {
 }
 
 .ms_logo-img {
-    width: 70px;
+    max-width: 70px;
+}
+
+.ms_form {
+    background-color: blue;
+}
+
+.ms_header-icons {
+    color: grey;
+}
+
+.ms_bell {
+    color: yellow;
+}
+
+/* Nav bar */
+.ms_nav-bar {
+    background-color: lightblue;
 }
 
 /* Main */
@@ -32,10 +49,10 @@ img {
     position: relative;
 }
 
-[class^=col] {
+/* [class^=col] {
     border: 1px solid black;
-    height: 100px;
-}
+    
+} */
 
 .ms_sidebar-list a {
     color: white;
@@ -71,6 +88,21 @@ img {
     min-height: 100px;
 }
 
-.col-12 {
-    border: 2px solid black;
+.ms_new-student {
+    color: white;
+}
+
+.ms_new-student i {
+    color: white;
+}
+
+
+
+.ms_blaze {
+    font-size: .7rem;
+}
+
+
+.number-student {
+    font-size: 3rem;
 }
