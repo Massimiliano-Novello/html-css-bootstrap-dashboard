@@ -1,0 +1,46 @@
+/* WRAPPER */
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* debug */
+    background-color: aquamarine;
+}
+
+/* Header */
+.ms_header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+/* Main */
+/* Sidebar */
+.sidebar {
+    width: 70px;
+    height: calc(100vh - 80px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: black;
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        width: 200px;
+    }
+}
+
+/* Content */
+.content {
+    width: calc(100% - 70px);
+    height: calc(100vh - 80px);
+    background-color: brown;
+}
+
+/* Information bar */
+.information-bar {
+    background-color: blue;
+    min-height: 100px;
+}
+
+.col-12 {
+    border: 2px solid black;
+}
