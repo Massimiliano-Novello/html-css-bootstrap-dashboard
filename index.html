@@ -19,53 +19,51 @@
 
     <div class="wrapper">
         <!-- Header -->
-        <header class="ms_header">
-            <nav class="ms_nav-bar">
-                <div class="container-fluid">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-2">
-                            <div class="ms_logo">
+        <header class="ms_header d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center">
+                    <div class="col-auto">
+                        <div class="ms_logo">
+                            <a href="">
                                 <img class="ms_logo-img d-lg-none" src="img/mobile-logo.png" alt="logo">
                                 <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <form action="">
-                                <div class="mb-3">
-                                    <div class="input-group mb-3">
-                                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
-                                        <input type="text" class="form-control ms_form" placeholder="Prova a cercare: Lezioni di Larvel" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                                      </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-2">
-                            <ul class="d-flex list-unstyled ms_header-list flex-lg-row-reverse">
-                                <li class="ms-2 ms-md-start">
-                                    <a class="ms_bell" href="">
-                                        <i class="fa-solid fa-bell"></i>
-                                    </a>
-                                </li>
-                                <li class="ms-1">
-                                    <a class="ms_header-icons d-none d-lg-inline-block" href="">
-                                        <i class="fa-solid fa-bars"></i>
-                                    </a> 
-                                </li>
-                                <li class="ms-2">
-                                    <a class="ms_header-icons d-none d-lg-inline-block" href="">
-                                        <i class="fa-solid fa-circle-question"></i>
-                                    </a>
-                                </li>
-                                <li class="ms-2">
-                                    <a class="ms_header-icons d-none d-lg-inline-block" href="">
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            </a>
                         </div>
                     </div>
+                    <div class="col">
+                        <form action="">
+                            <div class="input-group">
+                                <span class="input-group-text" id="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="search">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <ul class="d-flex list-unstyled ms_header-list flex-lg-row-reverse">
+                            <li class="ms-2 ms-md-start">
+                                <a class="ms_bell" href="">
+                                    <i class="fa-solid fa-bell"></i>
+                                </a>
+                            </li>
+                            <li class="ms-1">
+                                <a class="ms_header-icons d-none d-lg-inline-block" href="">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a> 
+                            </li>
+                            <li class="ms-2">
+                                <a class="ms_header-icons d-none d-lg-inline-block" href="">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </a>
+                            </li>
+                            <li class="ms-2">
+                                <a class="ms_header-icons d-none d-lg-inline-block" href="">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </nav>
+            </div>
         </header>
         <!-- /Header -->
 
@@ -103,7 +101,7 @@
                 </div>
             </div>
             <!-- /Sidebar -->
-
+            <!-- Content -->
             <div class="content overflow-y-auto">
                 <!-- Information bar -->
                 <div class="information-bar py-4">
@@ -167,6 +165,93 @@
                     </div>
                 </div>
                 <!-- /Information bar -->
+
+                <!-- Grid content -->
+                <div class="ms-content-grid py-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-lg-7">
+                                <!-- Prossime classi -->
+                                <div class="card mb-3">
+                                    <h4 class="card-header">
+                                      Prossime Classi
+                                    </h4>
+                                    <div class="card-body">
+                                        <table class="table">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, mollitia commodi? Quaerat molestiae quos sapiente blanditiis explicabo. Accusamus unde cupiditate maiores, dicta impedit fugiat vero, temporibus odit, doloribus magni eius.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, mollitia commodi? Quaerat molestiae quos sapiente blanditiis explicabo. Accusamus unde cupiditate maiores, dicta impedit fugiat vero, temporibus odit, doloribus magni eius.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, mollitia commodi? Quaerat molestiae quos sapiente blanditiis explicabo. Accusamus unde cupiditate maiores, dicta impedit fugiat vero, temporibus odit, doloribus magni eius.
+                                        </table>
+                                    </div>
+                                  </div>
+                                <!-- Prossime classi -->
+                                <!-- FAQ section -->
+                                <div class="card mb-3">
+                                    <h4 class="card-header">
+                                      F.A.Q
+                                    </h4>
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Come aggiungere un nuovo studente?</li>
+                                            <li class="list-group-item">Come posso accedere alle impostazioni del mio account?</li>
+                                            <li class="list-group-item">Posso usare questa dashboard da mobile?</li>
+                                          </ul>
+                                    </div>
+                                  </div>
+                                <!-- /FAQ section -->
+
+                                
+                            </div>
+                            <div class="col-12 col-lg-5">
+                                <!-- input section -->
+                                <div class="card mb-3">
+                                    <h4 class="card-header">Todo</h4>
+                                    <div class="card-body">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                              <label class="form-check-label" for="firstCheckbox">Kick off nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                              <label class="form-check-label" for="secondCheckbox">Lezione su bootstrap 5 classe #75</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                              <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+                                <!-- /input section -->
+
+                                <!-- Stats section -->
+                                <div class="card">
+                                    <img src="img/stats.jpeg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Utenti attivi</h5>
+                                      <p class="card-text">Lista degli utenti attivi nell'ultimo mese.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Gennaio: 1200</li>
+                                      <li class="list-group-item">Febbraio: 800</li>
+                                      <li class="list-group-item">Marzo: 1800</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="card-link">Visualizza report approfondito</a>
+                                     
+                                    </div>
+                                </div>
+                                <!-- /Stats section -->
+
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <!-- /Grid content -->
+
             </div>
         </main>
         <!-- /Main -->
