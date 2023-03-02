@@ -39,7 +39,7 @@
                         </form>
                     </div>
                     <div class="col-auto">
-                        <ul class="d-flex list-unstyled ms_header-list flex-lg-row-reverse">
+                        <ul class="d-flex list-unstyled ms_header-list flex-lg-row-reverse mb-0">
                             <li class="ms-2 ms-md-start">
                                 <a class="ms_bell" href="">
                                     <i class="fa-solid fa-bell"></i>
@@ -110,9 +110,74 @@
                             <div class="col-12 col-md-3       ms_new-student">
                                <div class="d-flex align-items-center">
                                     <div>Nuovo studente</div>
-                                    <a class="btn  border-secondary-subtle ms-3" href="">
+                                    <button class="btn btn-primary ms-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                                         <i class="fa-solid fa-plus"></i>
-                                    </a>
+                                    </button>
+                                    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                        <div class="container-fluid">
+                                            <p>Inserisci un nuovo studente</p>
+                                            <!-- BONUS -->
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                    <label for="inputEmail4" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="inputEmail4">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputPassword4" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="inputPassword4">
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label for="foremail" class="form-label">Email</label>
+                                                        <input class="form-control" type="email" id="formemail">
+                                                      </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputPassword4" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword4">
+                                                
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputCity" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputState" class="form-label">Stato</label>
+                                                    <select id="inputState" class="form-select">
+                                                      <option selected>Scegli</option>
+                                                      <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <label for="inputZip" class="form-label">Cap</label>
+                                                    <input type="text" class="form-control" id="inputZip">
+                                                </div>
+                                                <div class="mb-3 col-12">
+                                                    <label for="formFile" class="form-label">Foto</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-check">
+                                                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                      <label class="form-check-label" for="gridCheck">
+                                                        Check me out
+                                                      </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                                    <button type="submit" class="btn btn-warning">Svuota</button>
+                                                  </div>
+                                                  
+                                            </form>
+                                            <!-- /BONUS -->
+
+                                        </div>
+                                      </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 order-md-1">
