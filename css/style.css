@@ -3,6 +3,7 @@ img {
     max-width: 100%;
 }
 
+
 /* WRAPPER */
 .wrapper {
     width: 100%;
@@ -19,9 +20,6 @@ img {
     max-width: 80px;
 }
 
-.ms_form {
-    background-color: #E5E5E5;
-}
 
 .ms_header-icons {
     color: grey;
@@ -64,6 +62,12 @@ img {
     top: 90%;
     left: 15px;
 }
+
+.ms_icon-sidebar:hover {
+    background-color: rgb(205, 213, 218);
+    padding: 3px;
+}
+
 
 
 @media screen and (min-width: 992px) {
